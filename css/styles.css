@@ -237,7 +237,7 @@ color: var(--base-wait-color);
 }
 /*  ////////////// --- -- INDEX -- SECTION 2 ---//////////////////  */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -248,7 +248,7 @@ color: var(--base-wait-color);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+} */
 
 .section-two-no-name {
     padding-top: 120px;
@@ -293,9 +293,10 @@ color: var(--base-wait-color);
    
 }
 
-.name-sektion-two,
-.name-sektion-three,
-.name-sektion-fo {
+/* .name-section-two, */
+/* .name-section-three, */
+.name-section-fo,
+.name-sections-portfolio {
     margin-bottom: 72px;
     text-align: center;
     font-size: 36px;
@@ -444,7 +445,7 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-/*  ////////////////   FUTER  ///////////////////  */
+/*  ////////////////   FOOTER  ///////////////////  */
  .footer-site {
     background-color: var(--navy-blue);
     padding-top: 100px;
