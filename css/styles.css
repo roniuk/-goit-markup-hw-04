@@ -385,7 +385,7 @@ color: var(--base-wait-color);
 }
 
 .name-worker {
-padding: 32px 16px;
+padding: 32px 0;
 border-radius: 0px 0px 4px 4px;
 }
 
@@ -444,8 +444,8 @@ border-radius: 0px 0px 4px 4px;
 
 
 .port-item:hover {
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
+    /* box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%); */
 }
 .card-set {
     display: flex;
@@ -463,6 +463,7 @@ border-radius: 0px 0px 4px 4px;
 .port-link:focus {
     box-shadow: var(--card-shadow);
     transform: translateY(0%)
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 
 
 }
@@ -655,6 +656,7 @@ border-radius: 0px 0px 4px 4px;
     /* transition: background-color var(--animation); */
 
     transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
