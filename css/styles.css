@@ -427,64 +427,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /*   //////////  PORTFOLIO  SECOND-SECTION   ////////  */
-/* 
-.card-set {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-}
-
-.port-item {
-    width: calc( (100% - 48px) / 3);
-}
-
-
-
-.card-content {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-
-.card-heading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 8px; */
-    /* identical to box height, or 120% */
-    
-    /* letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    margin-bottom: 8px;
-}
-
-.card-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate-text);
-}
-.portfolio .elem {
-    width: 360 ;
-    height: 420;
-
-}
-
-.soc-link:hover,
-.soc-link:focus {
-    background-color: var(--ocean);
-} */
-
-
-
-
 
 .port-item {
     display: flex;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 
 }
 
@@ -503,6 +450,7 @@ border-radius: 0px 0px 4px 4px;
 .port-link:hover,
 .port-link:focus {
     box-shadow: var(--card-shadow);
+    transform: translateY(0%)
 
 
 }
@@ -563,6 +511,8 @@ border-radius: 0px 0px 4px 4px;
     transform: translate(0, 100%);
     transition: transform var(--animation);
 
+
+    font-size: 16px;
 }
 
 .soc-link {
@@ -596,7 +546,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 16px;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .socials-icon {
@@ -616,7 +566,7 @@ border-radius: 0px 0px 4px 4px;
 .li-footer {
     height: 40px;
     width: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .futer-logo-link {
     font-family: Raleway, sans-serif;
@@ -652,7 +602,7 @@ border-radius: 0px 0px 4px 4px;
         font-size: 16px;
         color:var(--cornflower);        
 }
-/* dsdsdsdsdsd */
+
 .footer-right {
     margin-right: 80px;
 }
@@ -690,7 +640,9 @@ border-radius: 0px 0px 4px 4px;
     gap: 16px;
     align-items: center;
     justify-content: center;
-    transition: background-color var(--animation);
+    /* transition: background-color var(--animation); */
+
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
